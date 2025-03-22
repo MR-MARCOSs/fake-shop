@@ -41,6 +41,6 @@ jobs:
       - uses: Azure/k8s-deploy@v5
         with:      
           manifests: |
-              k8s/deployment.yaml
+            k8s/deployment.yaml
           images: marcoseduardoevangelista/fake-shop:v${{ github.run_number }}
 
