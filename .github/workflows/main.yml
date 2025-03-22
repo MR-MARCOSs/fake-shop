@@ -2,7 +2,7 @@ name: CI-CD
 
 on: 
   push:
-    branches: ["marcos"]
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
